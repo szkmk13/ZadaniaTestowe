@@ -3,3 +3,6 @@ main.py grouped-teams
 main.py players-stats --name Michael
 main.py teams-stats --season 2017
 
+
+Szymon Kowalski
+e-mail: szkowalski13@gmail.com
