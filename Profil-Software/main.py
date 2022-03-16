@@ -82,17 +82,13 @@ if __name__ == '__main__':
                 if sys.argv[2].lower() == "--name":
                     name = sys.argv[3]
                     player_stats(name)
-                else:
-                    print("Please enter a valid command e.g.(player-stats --name Jordan)")
             elif sys.argv[1].lower() == "team-stats":
                 if sys.argv[2].lower() == "--season":
                     season = sys.argv[3]
                     teams_stats(season)
-                else:
-                    print("Please enter a valid command e.g.(player-stats --name Jordan)")
-                pass
+            else:
+                print("Please enter a valid command e.g.(player-stats --name Jordan)")
         except:
             IndexError
         finally:
             break
-
